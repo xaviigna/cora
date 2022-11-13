@@ -12,7 +12,7 @@ header{
     width: 100%;
     height: 80px;
     margin-top: 40px;
-    position: fixed;
+    position: absolute;
     z-index: 1;
 }
 
@@ -110,7 +110,7 @@ header{
     font-size: 16px;
     border-radius: 50px;
     margin-top: 40px;
-    background: linear-gradient(to right, #bbeedf, #2e8067);
+    background: linear-gradient(to right, #53bb95, #2e8067);
     color: #fff;
     cursor: pointer;
     box-shadow: 1px 1px 30px -12px #2E8067;
@@ -138,3 +138,30 @@ header{
     }
 }
 
+footer{
+    font-size: 10px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #2E8067;
+}
+navbar{
+    text-align: center;
+}
+navbar a{
+    color: white;
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
+    transition: 0.3s;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 2px solid;
+}
+navbar a:hover{
+    color: #BFC0C0;
+    font-size: 17px;
+    transition: 0.2s;
+}
